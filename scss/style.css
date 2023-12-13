@@ -79,6 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------BODY,CONTAINER--------------------*/
 body {
   font-family: "DM Sans";
+  display: flex;
+  flex-direction: column;
 }
 body.lock {
   overflow: hidden;
@@ -235,6 +237,10 @@ body.lock {
 
 /*--------------------/HEADER--------------------*/
 /*--------------------MAIN--------------------*/
+main {
+  flex: 1;
+}
+
 .introduction {
   padding-top: clamp(3.75rem, -1.705rem + 27.27vw, 18.75rem);
   /* .introduction-container */
@@ -277,4 +283,78 @@ body.lock {
 
 /*--------------------/MAIN--------------------*/
 /*--------------------FOOTER--------------------*/
+.footer {
+  width: 100vw;
+  flex-shrink: 0;
+  padding-top: 100px;
+  padding-bottom: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
+  /* .footer-container */
+  /* .footer-upper */
+  /* .footer-logo */
+  /* .footer-media */
+  /* .footer-images */
+  /* .footer-bottom */
+  /* .footer-list */
+  /* .footer-item */
+  /* .footer-copyright */
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-upper {
+  padding-bottom: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
+}
+.footer-logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+  padding-left: 0;
+}
+.footer-media {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-images {
+  transition: all 0.3s;
+}
+.footer-images:hover {
+  opacity: 0.8;
+}
+.footer-bottom {
+  padding-top: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
+  border-top: 1px solid #666666;
+}
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .footer-bottom {
+    gap: 35px;
+  }
+}
+.footer-list {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.688rem, 0.509rem + 0.89vw, 0.938rem);
+}
+@media (max-width: 480px) {
+  .footer-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
 /*--------------------/FOOTER--------------------*//*# sourceMappingURL=style.css.map */
