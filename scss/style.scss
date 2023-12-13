@@ -58,7 +58,7 @@ body{
 }
 .container{
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 85vw;
 	padding: 0 20px;
 }
 
@@ -247,7 +247,7 @@ main{
 }
 .introduction {
 
-    padding-top: clamp(3.75rem, -1.705rem + 27.27vw, 18.75rem);
+    padding-top: clamp(5rem, 25vw, 18.75rem);
 
     /* .introduction-container */
     
@@ -268,7 +268,7 @@ main{
     
     &-text {
         max-width: 600px;
-        font-size: clamp(2.125rem, 1.807rem + 1.59vw, 3rem);
+        font-size: clamp(2.125rem, 1.58rem + 2.73vw, 3.625rem);
         max-height: 300px;
 
         @media (max-width:$break768) {
@@ -294,7 +294,92 @@ main{
     }
 }
 
+
+.technologies {
+
+    padding-top: clamp(5rem, 25vw, 18.75rem);
+
+    /* .technologies-container */
     
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(2.5rem, 0.227rem + 11.36vw, 8.75rem);
+    }
+    
+    /* .technologies-heading */
+    
+    &-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+    }
+    
+    /* .technologies-title */
+    
+    &-title {
+        font-size: clamp(2rem, 1.636rem + 1.82vw, 3rem);
+        text-align: center;
+    }
+    
+    /* .technologies-subtitle */
+    
+    &-subtitle {
+        font-size: clamp(1.5rem, 1.318rem + 0.91vw, 2rem);
+        text-align: center;
+    }
+    
+    /* .technologies-images */
+    
+    &-images {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        @media(max-width:$break768)
+        {
+            gap: 30px;
+        }
+    }
+    
+    /* .technologies-row */
+    
+    &-row {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media(max-width:$break768)
+        {
+            row-gap: 30px;
+        }
+    }
+    
+    /* .technologies-item */
+    
+    &-item {
+        @media(max-width: $break768)
+        {
+            text-align: center;
+            flex: 0 1 30%;
+        }
+        @media(max-width: $break480)
+        {
+            text-align: center;
+            flex: 0 1 48%;
+        }
+    }
+    
+    /* .technologies-icon */
+    
+    &-icon {
+        max-width: clamp(5.625rem, 4.943rem + 3.41vw, 7.5rem);
+        max-height: clamp(5.625rem, 4.943rem + 3.41vw, 7.5rem);
+    }
+}
 
 /*--------------------/MAIN--------------------*/
 
