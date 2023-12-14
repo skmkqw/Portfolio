@@ -214,10 +214,20 @@ body{
             font-size: 24px;
             color: #000;
         }
+        &.active
+        {
+            font-size: 24px;
+            color: #000;   
+        }
 		@media (max-width:$break768){
 			line-height: 70px;
 			display: block;
 			font-size: 33px;
+            &.active
+            {
+                font-size: 38px;
+                color: #000;
+            }
 		}
 	}
 

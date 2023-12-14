@@ -14,12 +14,7 @@ if (menu && menuBtn) {
 			menu.classList.remove('active')
 			menuBtn.classList.remove('active')
 			body.classList.remove('lock')
-            const Id = link.getAttribute('href').substring(1)
-
-            document.getElementById(Id).scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            })
 		})
 	});
 }
+
