@@ -305,7 +305,7 @@ main {
   gap: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
 }
 .technologies-title {
-  font-size: clamp(2rem, 1.636rem + 1.82vw, 3rem);
+  font-size: clamp(2.5rem, 1.5rem + 5vw, 3rem);
   text-align: center;
 }
 .technologies-subtitle {
@@ -352,6 +352,90 @@ main {
   max-height: clamp(5.625rem, 4.943rem + 3.41vw, 7.5rem);
 }
 
+.projects {
+  /* .projects-container */
+  /* .projects-heading */
+  /* .projects-title */
+  /* .projects-subtitle */
+  /* .projects-content */
+  /* .projects-row */
+  /* .projects-card */
+}
+.projects-container {
+  padding-top: clamp(6.25rem, 3.977rem + 11.36vw, 12.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(2.5rem, 1.136rem + 6.82vw, 6.25rem);
+}
+.projects-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.projects-title {
+  text-align: center;
+  font-size: clamp(2.5rem, 1.5rem + 5vw, 3rem);
+}
+.projects-subtitle {
+  text-align: center;
+  font-size: clamp(1.5rem, 1.318rem + 0.91vw, 2rem);
+}
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 100%;
+}
+.projects-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .projects-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+.projects-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 0px 19px -8px rgba(66, 68, 90, 0.62);
+  max-width: clamp(18.125rem, 16.193rem + 9.66vw, 23.438rem);
+  transition: all 0.3s;
+  flex: 0 0 30%;
+}
+@media (max-width: 768px) {
+  .projects-card {
+    flex: 0 1 95%;
+    max-width: none;
+    width: 100%;
+  }
+}
+.projects-card:hover {
+  scale: 1.05;
+}
+.projects-card-img img {
+  display: block;
+  width: 100%;
+}
+.projects-card-content {
+  padding: clamp(0.75rem, 0.341rem + 2.05vw, 1.875rem);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem);
+}
+.projects-card-title {
+  font-size: clamp(1.375rem, 0.625rem + 3.75vw, 1.75rem);
+}
+.projects-card-text {
+  font-size: clamp(1rem, 0.75rem + 1.25vw, 1.125rem);
+  line-height: clamp(1.375rem, 0.875rem + 2.5vw, 1.625rem);
+}
+
 /*--------------------/MAIN--------------------*/
 /*--------------------FOOTER--------------------*/
 .footer {
@@ -366,8 +450,6 @@ main {
   /* .footer-images */
   /* .footer-bottom */
   /* .footer-list */
-  /* .footer-item */
-  /* .footer-copyright */
 }
 .footer-container {
   display: flex;
@@ -428,4 +510,5 @@ main {
     gap: 15px;
   }
 }
+
 /*--------------------/FOOTER--------------------*//*# sourceMappingURL=style.css.map */
