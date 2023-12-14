@@ -141,7 +141,7 @@ body.lock {
 .menu-icon {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .menu-icon {
     display: block;
     position: relative;
@@ -178,7 +178,7 @@ body.lock {
     bottom: calc(50% - 1px);
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .menu-body {
     position: absolute;
     top: 0;
@@ -200,7 +200,7 @@ body.lock {
   align-items: center;
   gap: clamp(1.25rem, 1.023rem + 1.14vw, 1.875rem);
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .menu-list {
     flex-direction: column;
     gap: 0;
@@ -221,7 +221,7 @@ body.lock {
   font-size: 24px;
   color: #000;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .menu-link {
     line-height: 70px;
     display: block;
@@ -629,12 +629,15 @@ main {
   align-items: center;
   gap: clamp(0.688rem, 0.509rem + 0.89vw, 0.938rem);
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .footer-list {
     flex-direction: column;
     align-items: center;
     gap: 15px;
   }
+}
+.footer-item a {
+  color: #666666;
 }
 
 /*--------------------/FOOTER--------------------*//*# sourceMappingURL=style.css.map */
