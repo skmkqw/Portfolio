@@ -102,6 +102,7 @@ body{
 	background-color: $secondary;
 	position: fixed;
 	width: 100%;
+    z-index: 2;
 
 	// .header-container
 
@@ -450,6 +451,7 @@ main{
         max-width: clamp(18.125rem, 16.193rem + 9.66vw, 23.438rem);
         transition: all 0.3s;
         flex:0 0 30%;
+        z-index: 1;
 
         @media (max-width:$break768) {
             flex: 0 1 95%;
