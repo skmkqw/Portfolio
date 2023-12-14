@@ -595,6 +595,51 @@ main{
     }
 }
 
+.contact {
+
+    /* .contact-container */
+    
+    &-container {
+        padding-top:clamp(6.25rem, 3.977rem + 11.36vw, 12.5rem);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(2.188rem, 1.847rem + 1.7vw, 3.125rem);
+    }
+    
+    /* .contact-title */
+    
+    &-title {
+        text-align: center;
+        font-size: clamp(2rem, 1.5rem + 2.5vw, 3.375rem);
+    }
+    
+    /* .contact-list */
+    
+    &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    /* .contact-item */
+    
+    &-item {
+        text-align: center;
+    }
+    
+    /* .contact-link */
+    
+    &-link {
+        font-size: clamp(1.875rem, 1.42rem + 2.27vw, 3.125rem);
+        font-weight: bold;
+        transition: all 0.3s;
+        &:hover{
+            font-size: clamp(2.125rem, 1.625rem + 2.5vw, 3.5rem);
+        }
+    }
+}    
+
 /*--------------------/MAIN--------------------*/
 
 
