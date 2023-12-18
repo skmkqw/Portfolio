@@ -132,7 +132,7 @@ body.lock {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
   font-weight: bold;
   text-decoration: none;
   padding: 3px;
@@ -272,6 +272,7 @@ main {
   max-width: 600px;
   font-size: clamp(2.125rem, 1.58rem + 2.73vw, 3.625rem);
   max-height: 300px;
+  line-height: 110%;
 }
 @media (max-width: 768px) {
   .introduction-text {
@@ -329,7 +330,7 @@ main {
 }
 @media (max-width: 768px) {
   .technologies-images {
-    gap: 30px;
+    gap: 50px;
   }
 }
 .technologies-row {
@@ -341,20 +342,19 @@ main {
 }
 @media (max-width: 768px) {
   .technologies-row {
-    row-gap: 30px;
+    row-gap: 50px;
   }
 }
 @media (max-width: 768px) {
   .technologies-item {
     text-align: center;
-    flex: 0 1 30%;
-  }
-}
-@media (max-width: 480px) {
-  .technologies-item {
-    text-align: center;
     flex: 0 1 48%;
   }
+}
+.technologies-item img {
+  border-radius: 10px;
+  width: 140%;
+  height: auto;
 }
 .technologies-icon {
   max-width: clamp(5.625rem, 4.943rem + 3.41vw, 7.5rem);
@@ -400,8 +400,9 @@ main {
 .projects-row {
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
+  gap: 40px;
 }
 @media (max-width: 768px) {
   .projects-row {
@@ -415,7 +416,7 @@ main {
   box-shadow: 5px 0px 19px -8px rgba(66, 68, 90, 0.62);
   max-width: clamp(18.125rem, 16.193rem + 9.66vw, 23.438rem);
   transition: all 0.3s;
-  flex: 0 0 30%;
+  max-width: 500px;
   z-index: 1;
 }
 @media (max-width: 768px) {
@@ -431,11 +432,14 @@ main {
 .projects-card-img img {
   display: block;
   width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 .projects-card-content {
   padding: clamp(0.75rem, 0.341rem + 2.05vw, 1.875rem);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem);
 }
 .projects-card-title {
@@ -592,7 +596,7 @@ main {
   padding-bottom: clamp(1.25rem, 0.568rem + 3.41vw, 3.125rem);
 }
 .footer-logo {
-  font-size: 30px;
+  font-size: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
   font-weight: bold;
   padding: 5px;
   padding-left: 0;
