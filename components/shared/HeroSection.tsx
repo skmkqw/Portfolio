@@ -1,7 +1,11 @@
+import { Container } from "@/components";
+
 export default function HeroSection() {
     return (
-        <section>
+        <Container>
+            <section>
 
-        </section>
+            </section>
+        </Container>
     );
 }
