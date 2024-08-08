@@ -1,9 +1,10 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Logo from "@/components/Logo";
-import Background from "@/components/Background";
-import SocialIcons from "@/components/SocialIcons";
-import ButtonPrimary from "@/components/ButtonPrimary";
+import Header from "@/components/shared/Header";
+import Footer from "@/components/shared/Footer";
+import Logo from "@/components/shared/Logo";
+import Background from "@/components/shared/Background";
+import SocialIcons from "@/components/shared/SocialIcons";
+import ButtonPrimary from "@/components/ui/ButtonPrimary";
+import HeroSection from "@/components/shared/HeroSection";
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     Logo,
     Background,
     SocialIcons,
-    ButtonPrimary
+    ButtonPrimary,
+    HeroSection
 };
