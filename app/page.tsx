@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="h-full w-full bg-[url('/LooperGroup2.png')] bg-no-repeat">
+    <main className="h-full w-full">
       <HeroSection />
     </main>
   );

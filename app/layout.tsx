@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-black text-white`}>
+      <body className={`${poppins.className} bg-black text-white bg-[url('/LooperGroup2.png')] bg-no-repeat`}>
         <Background />
         <Header/>
         {children}
