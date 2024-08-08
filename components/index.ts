@@ -5,8 +5,9 @@ import Subtitle from "@/components/ui/Subtitle";
 import Footer from "@/components/shared/Footer";
 import Container from "@/components/shared/Container";
 import Background from "@/components/shared/Background";
+import GradientText from "@/components/ui/GradientText";
 import SocialIcons from "@/components/shared/SocialIcons";
-import ButtonPrimary from "@/components/ui/ButtonPrimary";
+import Button from "@/components/ui/Button";
 import HeroSection from "@/components/shared/HeroSection";
 
 export {
@@ -16,8 +17,9 @@ export {
     Title,
     Background,
     SocialIcons,
-    ButtonPrimary,
+    Button,
     HeroSection,
     Container,
-    Subtitle
+    Subtitle,
+    GradientText
 };
