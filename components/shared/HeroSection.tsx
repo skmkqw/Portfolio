@@ -8,9 +8,8 @@ export default function HeroSection() {
                    className="bg-[#1A1A1A] rounded-full" />
             <Title text="Timofei Korsakov" className="mt-12 text-4xl md:text-5xl lg:text-6xl" />
             <p className="font-semibold text-[#C9C9C9] text-xl md:text-2xl lg:text-3xl mt-4">
-                I do
-                <span
-                    className="bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent">
+                I do <span
+                        className="bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent">
                     Code
                 </span>
             </p>

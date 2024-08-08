@@ -6,5 +6,5 @@ const inter = Inter({
 });
 
 export default function GradientText({ text, className }: { text: string, className?: string }) {
-    return <p className={`${inter.className} text-xs font-medium tracking-widest bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent ${className}`}>{text}</p>;
+    return <p className={`${inter.className} text-xs font-medium tracking-[10px] bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent ${className}`}>{text}</p>;
 }
