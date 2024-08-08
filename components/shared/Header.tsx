@@ -1,6 +1,6 @@
 'use client';
 
-import {ButtonPrimary, Logo} from "@/components/index";
+import {ButtonPrimary, Logo} from "@/components";
 
 export default function Header()
 {

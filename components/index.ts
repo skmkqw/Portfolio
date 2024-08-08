@@ -1,6 +1,7 @@
+import Logo from "@/components/shared/Logo";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
-import Logo from "@/components/shared/Logo";
+import Container from "@/components/shared/Container";
 import Background from "@/components/shared/Background";
 import SocialIcons from "@/components/shared/SocialIcons";
 import ButtonPrimary from "@/components/ui/ButtonPrimary";
@@ -13,5 +14,6 @@ export {
     Background,
     SocialIcons,
     ButtonPrimary,
-    HeroSection
+    HeroSection,
+    Container
 };

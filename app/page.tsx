@@ -1,4 +1,5 @@
 import type {Metadata} from "next";
+import { HeroSection } from "@/components";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -8,7 +9,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="h-full w-full  bg-[url('/LooperGroup2.png')] bg-no-repeat">
+    <main className="h-full w-full bg-[url('/LooperGroup2.png')] bg-no-repeat">
+      <HeroSection />
     </main>
   );
 }
