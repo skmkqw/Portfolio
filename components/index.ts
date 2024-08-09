@@ -10,6 +10,7 @@ import GradientText from "@/components/ui/GradientText";
 import SocialIcons from "@/components/shared/SocialIcons";
 import HeroSection from "@/components/shared/HeroSection";
 import AboutSection from "@/components/shared/AboutSection";
+import StackSection from "@/components/shared/StackSection";
 
 export {
     Header,
@@ -23,5 +24,6 @@ export {
     Container,
     Subtitle,
     GradientText,
-    AboutSection
+    AboutSection,
+    StackSection
 };
