@@ -5,7 +5,7 @@ export default function HeroSection() {
     return (
         <Container className="mt-28 flex flex-col items-center text-center">
             <Image src="/emoji.png" alt="Portrait emoji" width={200} height={200}
-                   className="bg-[#1A1A1A] rounded-full" />
+                   className="bg-gradient-to-t from-indigo-500 to-orange-500 rounded-full" />
             <Title text="Timofei Korsakov" className="mt-12 text-4xl md:text-5xl lg:text-6xl" />
             <p className="font-semibold text-[#C9C9C9] text-xl md:text-2xl lg:text-3xl mt-4">
                 I do <span
