@@ -1,12 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SocialIcons() {
     return (
-        <div className="flex gap-6 sm:gap-8 md:gap-10 xl:gap-12 items-center justify-center">
-            <Image src="/github.svg" alt="Github logo" height={24} width={24} />
-            <Image src="/instagram.svg" alt="Instagram logo" height={24} width={24} />
-            <Image src="/linkedin.svg" alt="LinkedIn logo" height={24} width={24} />
-            <Image src="/twitter.svg" alt="Twitter logo" height={24} width={24} />
+        <div className="flex gap-4 items-center">
+            <Link href="https://github.com/skmkqw" target="_blank">
+                <Image src="/github.svg" alt="Github logo" height={24} width={24} />
+            </Link>
+            <Link href="https://www.linkedin.com/in/timofei-korsakov-3602a2303/" target="_blank">
+                <Image src="/linkedin.svg" alt="LinkedIn logo" height={24} width={24} />
+            </Link>
         </div>
     );
 }
