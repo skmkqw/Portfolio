@@ -12,7 +12,7 @@ interface ProjectProps {
 
 export default function Project({ imageSrc, name, description, stackNames, url }: ProjectProps) {
     return (
-        <Link href={url}>
+        <Link href={url} target="_blank">
             <div className="flex flex-col items-center backdrop-blur-sm bg-white/10 rounded-2xl border border-white/30 p-2">
                 <Image src={imageSrc} alt="Project Image" width={600} height={150} className="rounded-2xl" />
                 <div className="flex flex-col items-center py-7 px-4">
