@@ -5,9 +5,9 @@ const projects = [
     {
         imageSrc: "/foodieland.png",
         name: "Foodieland",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur necessitatibus quo sequi.",
+        description: "Recipe-sharing social network app",
         stackNames: ["Next.js", ".NET", "C#", "MSSQL"],
-        url: "https://pagespeed.web.dev/analysis?url=http%3A%2F%2Flocalhost%3A3000%2F"
+        url: "https://github.com/skmkqw/Foodieland"
     }
 ];
 

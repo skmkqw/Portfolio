@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutSection() {
     return (
-        <div id="about">
+        <div>
             <Container className="flex flex-col items-center text-center">
                 <Title text="About Me" />
                 <GradientText
