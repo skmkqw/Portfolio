@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { AboutSection, HeroSection, StackSection } from "@/components";
+import { AboutSection, HeroSection, ProjectsSection, StackSection } from "@/components";
 
 export const metadata: Metadata = {
     title: "Portfolio",
@@ -13,6 +13,7 @@ export default function Home() {
             <HeroSection />
             <AboutSection />
             <StackSection />
+            <ProjectsSection />
         </main>
     );
 }
