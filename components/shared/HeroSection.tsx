@@ -1,5 +1,6 @@
 import { Button, Container, Subtitle, Title } from "@/components";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
     return (
@@ -16,8 +17,10 @@ export default function HeroSection() {
             <Subtitle
                 text="Passionate Software Engineer with a focus on React + .NET fullstack development, dedicated to crafting elegant and user-friendly web applications."
                 className="max-w-xl mt-8 text-base md:text-lg" />
-            <Button type="button" text="Contact me"
-                    additionalStyles="border border-gray-400 text-white !bg-black hover:!bg-gray-900 mt-9 py-3 px-12 rounded-full text-lg" />
+            <Link href="/contact">
+                <Button type="button" text="Contact me"
+                        additionalStyles="border border-gray-400 text-white !bg-black hover:!bg-gray-900 mt-9 py-3 px-12 rounded-full text-lg" />
+            </Link>
         </Container>
     );
 }

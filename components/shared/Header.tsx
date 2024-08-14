@@ -1,12 +1,9 @@
 "use client";
 
 import { Button, Container, Logo } from "@/components";
+import Link from "next/link";
 
 export default function Header() {
-    function handleContactClick() {
-        console.log("Contact button clicked");
-
-    }
 
     function handleAboutClick() {
         const aboutSection = document.getElementById("about");
@@ -23,7 +20,9 @@ export default function Header() {
                 <div className="flex align-middle gap-5">
                     <Button type="button" text="About me" handleClick={handleAboutClick}
                             additionalStyles="hidden xs:block border border-gray-400 !text-white !bg-transparent hover:!bg-gray-900" />
-                    <Button type="button" text="Contact" handleClick={handleContactClick} />
+                    <Link href="/contact">
+                        <Button type="button" text="Contact" additionalStyles="h-full" />
+                    </Link>
                 </div>
             </header>
         </Container>
