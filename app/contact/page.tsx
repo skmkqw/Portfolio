@@ -6,19 +6,21 @@ export default function ContactPage() {
     return (
         <main className="w-full">
             <Container className="text-center flex flex-col items-center gap-10 py-10">
-                <Title text="Drop a letter" className="" />
-                <Title text="tkorsakov77@gmail.com"
-                       className="bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent leading-normal" />
-                <Title text="or visit my socials" className="" />
-                <div className="flex items-center gap-12">
+                <Title text="Drop a letter" className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
+                <Title
+                    text="tkorsakov77@gmail.com"
+                    className="bg-gradient-to-r from-indigo-500 to-orange-500 bg-clip-text text-transparent !text-2xl xs:!text-3xl sm:!text-4xl md:!text-5xl"
+                />
+                <Title text="or visit my socials" className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
+                <div className="flex flex-wrap justify-center gap-8 sm:gap-12 mt-6">
                     <Link href="https://github.com/skmkqw" target="_blank">
-                        <Image src="/github-gradient.png" alt="Github logo" width={80} height={80} />
+                        <Image src="/github-gradient.png" alt="Github logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/timofei-korsakov-3602a2303/" target="_blank">
-                        <Image src="/linkedin-gradient.png" alt="LinkedIn logo" width={80} height={80} />
+                        <Image src="/linkedin-gradient.png" alt="LinkedIn logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
                     </Link>
                     <Link href="https://t.me/tksmkq" target="_blank">
-                        <Image src="/tg-gradient.png" alt="Telegram logo" width={80} height={80} />
+                        <Image src="/tg-gradient.png" alt="Telegram logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
                     </Link>
                 </div>
             </Container>

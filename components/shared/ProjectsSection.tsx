@@ -13,7 +13,7 @@ const projects = [
 
 export default function ProjectsSection() {
     return (
-        <Container className="mt-28 flex flex-col items-center text-center">
+        <Container className="my-28 flex flex-col items-center text-center">
             <Title text="Projects" className="text-4xl lg:text-5xl" />
             <GradientText text="EXPLORE NOW" className="mt-4" />
             <div className="flex flex-col items-center gap-14 mt-14">

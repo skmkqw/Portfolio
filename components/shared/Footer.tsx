@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <Container>
-            <footer className="w-full flex justify-center mt-24 py-10">
+            <footer className="w-full flex justify-center py-10">
                 <div className="max-w-2xl text-center flex flex-col items-center">
                     <SocialIcons />
                     <p className="mt-4 text-sm text-gray-400 px-6">
