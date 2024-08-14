@@ -56,7 +56,7 @@ export default function StackSection() {
             <div className="max-w-2xl w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-8 mt-10 justify-center">
                 {stackIcons.map((icon, idx) => (
                     <div className="flex items-center justify-center" key={idx}>
-                        <Image src={icon.src} alt={icon.alt} width={50} height={50} />
+                        <Image src={icon.src} alt={icon.alt} width={50} height={50} className="h-12 w-12"/>
                     </div>
                 ))}
             </div>
