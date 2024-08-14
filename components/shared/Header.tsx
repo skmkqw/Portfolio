@@ -5,10 +5,14 @@ import { Button, Container, Logo } from "@/components";
 export default function Header() {
     function handleContactClick() {
         console.log("Contact button clicked");
+
     }
 
     function handleAboutClick() {
-        console.log("About button clicked");
+        const aboutSection = document.getElementById("about");
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: "smooth" });
+        }
     }
 
     return (
