@@ -2,7 +2,7 @@ import { AboutSection, HeroSection, ProjectsSection, StackSection } from "@/comp
 
 export default function Home() {
     return (
-        <main className="h-full w-full">
+        <main className="h-full w-full mt-10 xs:mt-16 sm:mt-20 md:mt-28 flex flex-col items-center gap-14 xs:gap-18 md:gap-28">
             <HeroSection />
             <AboutSection />
             <StackSection />

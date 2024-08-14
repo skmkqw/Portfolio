@@ -13,10 +13,13 @@ const projects = [
 
 export default function ProjectsSection() {
     return (
-        <Container className="my-28 flex flex-col items-center text-center">
-            <Title text="Projects" className="text-4xl lg:text-5xl" />
-            <GradientText text="EXPLORE NOW" className="mt-4" />
-            <div className="flex flex-col items-center gap-14 mt-14">
+        <Container className="flex flex-col items-center text-center">
+            <Title text="Projects" />
+            <GradientText
+                text="EXPLORE NOW"
+                className="mt-4"
+            />
+            <div className="flex flex-col items-center gap-14 mt-8 md:mt-12">
                 {projects.map((project, idx) => (
                     <Project {...project} key={idx} />
                 ))}

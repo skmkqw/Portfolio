@@ -47,9 +47,12 @@ const stackIcons = [
 
 export default function StackSection() {
     return (
-        <Container className="mt-28 flex flex-col items-center text-center">
-            <Title text="Tech Stack" className="text-4xl lg:text-5xl" />
-            <GradientText text="EXPERIENCE WITH" className="mt-4" />
+        <Container className="flex flex-col items-center text-center">
+            <Title text="Tech Stack" />
+            <GradientText
+                text="EXPERIENCE WITH"
+                className="mt-4"
+            />
             <div className="max-w-2xl w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-8 mt-10 justify-center">
                 {stackIcons.map((icon, idx) => (
                     <div className="flex items-center justify-center" key={idx}>

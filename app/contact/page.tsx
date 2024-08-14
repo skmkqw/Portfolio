@@ -14,13 +14,13 @@ export default function ContactPage() {
                 <Title text="or visit my socials" className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
                 <div className="flex flex-wrap justify-center gap-8 sm:gap-12 mt-6">
                     <Link href="https://github.com/skmkqw" target="_blank">
-                        <Image src="/github-gradient.png" alt="Github logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
+                        <Image src="/github-gradient.png" alt="Github logo" width={60} height={60} className="w-10 h-10 md:w-14 md:h-14" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/timofei-korsakov-3602a2303/" target="_blank">
-                        <Image src="/linkedin-gradient.png" alt="LinkedIn logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
+                        <Image src="/linkedin-gradient.png" alt="LinkedIn logo" width={60} height={60} className="w-10 h-10 md:w-14 md:h-14" />
                     </Link>
                     <Link href="https://t.me/tksmkq" target="_blank">
-                        <Image src="/tg-gradient.png" alt="Telegram logo" width={60} height={60} className="sm:w-16 sm:h-16 md:w-20 md:h-20" />
+                        <Image src="/tg-gradient.png" alt="Telegram logo" width={60} height={60} className="w-10 h-10 md:w-14 md:h-14" />
                     </Link>
                 </div>
             </Container>
