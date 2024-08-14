@@ -19,7 +19,7 @@ export default function Project({ imageSrc, name, description, stackNames, url }
                     alt="Project Image"
                     width={600}
                     height={150}
-                    className="rounded-2xl w-[600px] h-[200px]"
+                    className="rounded-2xl"
                 />
                 <div className="flex flex-col items-center py-7 px-4">
                     <div className="flex flex-col gap-4 max-w-xl">

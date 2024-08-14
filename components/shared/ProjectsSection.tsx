@@ -3,7 +3,7 @@ import React from "react";
 
 const projects = [
     {
-        imageSrc: "/foodieland.png",
+        imageSrc: "/foodieland.webp",
         name: "Foodieland",
         description: "Recipe-sharing social network app",
         stackNames: ["Next.js", ".NET", "C#", "MSSQL"],
