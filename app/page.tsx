@@ -1,11 +1,4 @@
-import type { Metadata } from "next";
 import { AboutSection, HeroSection, ProjectsSection, StackSection } from "@/components";
-
-export const metadata: Metadata = {
-    title: "Portfolio",
-    description: "Timofei Korsakov developer portfolio"
-};
-
 
 export default function Home() {
     return (
