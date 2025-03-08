@@ -8,7 +8,21 @@ const projects = [
         description: "Recipe-sharing social network app",
         stackNames: ["Next.js", ".NET", "C#", "MSSQL"],
         url: "https://github.com/skmkqw/Foodieland"
-    }
+    },
+    {
+        imageSrc: "/findashboard.png",
+        name: "Findashboard Backend",
+        description: "Team-focused finance & project management platform",
+        stackNames: [".NET", "C#", "PostgreSQL"],
+        url: "https://github.com/skmkqw/findashboard"
+    },
+    {
+        imageSrc: "/findashboard.png",
+        name: "Findashboard Frontend",
+        description: "Team-focused finance & project management platform",
+        stackNames: ["Next.js", "Tailwind.css"],
+        url: "https://github.com/skmkqw/findashboard-frontend"
+    },
 ];
 
 export default function ProjectsSection() {
