@@ -26,7 +26,7 @@ export default function Project({ imageSrc, name, description, stackNames, url }
                         <p className="font-extrabold text-2xl">{name}</p>
                         <Subtitle text={description} />
                     </div>
-                    <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 gap-x-2 sm:gap-x-3 gap-y-2 mt-6">
+                    <div className="flex items-center gap-2 mt-6 flex-wrap justify-center">
                         {stackNames.map((stackName, idx) => (
                             <StackBadge text={stackName} key={idx} />
                         ))}
