@@ -13,16 +13,17 @@ export const metadata: Metadata = {
     metadataBase: new URL("http://localhost:3000/"),
     title: "Timofei Korsakov",
     description:
-        "Fullstack developer from Poland. Junior software engineer. Specializing web apps, Javascript and .NET technologies.",
+        "Fullstack developer from Poland. Junior software engineer with focus on building scalable backends. Specializing web apps, Javascript and .NET technologies.",
     keywords: [
         "Developer",
         "Portfolio",
         "Developer Portflio",
-        "Ibrahim Memon",
+        "Timofei Korsakov",
         "Next.js",
         "React",
-        "ReactNative",
-        "Android",
+        ".NET",
+        "ASP.NET Core",
+        "C#"
     ],
     openGraph: {
         title: "Timofei Korsakov",
