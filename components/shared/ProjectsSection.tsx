@@ -10,6 +10,13 @@ const projects = [
         url: "https://github.com/skmkqw/Foodieland"
     },
     {
+        imageSrc: "/draus.png",
+        name: "Draus Design",
+        description: "Portfolio website for thumbnails creator",
+        stackNames: ["Next.js", "Tailwind.css", "Framer"],
+        url: "https://draus.studio"
+    },
+    {
         imageSrc: "/findashboard.png",
         name: "Findashboard Backend",
         description: "Team-focused finance & project management platform",
@@ -33,7 +40,7 @@ export default function ProjectsSection() {
                 text="EXPLORE NOW"
                 className="mt-4"
             />
-            <div className="flex flex-col items-center gap-14 mt-8 md:mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 mt-8 md:mt-12">
                 {projects.map((project, idx) => (
                     <Project {...project} key={idx} />
                 ))}
