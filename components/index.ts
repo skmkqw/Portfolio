@@ -1,3 +1,4 @@
+import NavBar from "./shared/Navbar";
 import Title from "@/components/ui/Title";
 import Logo from "@/components/shared/Logo";
 import Button from "@/components/ui/Button";
@@ -18,6 +19,7 @@ import ProjectsSection from "@/components/shared/ProjectsSection";
 export {
     Header,
     Footer,
+    NavBar,
     Logo,
     Title,
     Background,
