@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutSection() {
     return (
         <div>
-            <Container className="flex flex-col items-center text-center">
+            <Container className="flex flex-col items-center text-center py-8 sm:py-12 md:py-16">
                 <Title text="About Me" />
                 <GradientText
                     text="EXPLORE NOW"

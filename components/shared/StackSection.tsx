@@ -47,7 +47,7 @@ const stackIcons = [
 
 export default function StackSection() {
     return (
-        <Container className="flex flex-col items-center text-center">
+        <Container className="flex flex-col items-center text-center py-12 sm:py-20 md:py-24 scroll-mt-20" id="stack">
             <Title text="Tech Stack" />
             <GradientText
                 text="EXPERIENCE WITH"
