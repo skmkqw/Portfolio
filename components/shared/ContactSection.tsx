@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ContactSection() {
     return (
-        <Container className="text-center flex flex-col items-center gap-10 py-16 sm:py-20 scroll-mt-20" id="contact">
+        <Container className="text-center flex flex-col items-center gap-10 py-16 sm:py-40 scroll-mt-30" id="contact">
             <Title
                 text="Drop a letter"
                 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl"

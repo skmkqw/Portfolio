@@ -8,6 +8,7 @@ const MENU_ITEMS = [
     { title: "About Me", href: "#about" },
     { title: "Stack", href: "#stack" },
     { title: "Projects", href: "#projects" },
+    { title: "Contact", href: "#contact" },
 ];
 
 export default function NavBar() {
@@ -48,15 +49,15 @@ export default function NavBar() {
     }, []);
 
     return (
-        <header className="fixed top-0 left-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-[#1f1f1f] flex flex-col items-center transition-all duration-1000 ease-in-out">
+        <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-sm z-50 border-b border-[#1f1f1f] flex flex-col items-center transition-all duration-1000 ease-in-out">
             <div className="flex max-w-screen-xl items-center justify-between w-full px-8 py-4">
                 <Logo />
                 <nav className="hidden md:flex items-center gap-4">
                     {MENU_ITEMS.map((item, idx) => (
                         <Link
                             className={`font-medium hover:text-foreground transition-all duration-300 ease-out ${activeSection === item.href
-                                ? "text-foreground !font-bold"
-                                : "text-secondary-foreground"}
+                                ? "text-white !font-bold"
+                                : "text-gray-400"}
                             `}
                             key={idx}
                             href={item.href}
@@ -83,9 +84,8 @@ export default function NavBar() {
                     {MENU_ITEMS.map((item, idx) => (
                         <Link
                             className={`font-medium hover:text-foreground transition-all duration-300 ease-out ${activeSection === item.href
-                                ? "text-foreground !font-bold"
-                                : "text-secondary-foreground"
-                                } 
+                                ? "text-white !font-bold"
+                                : "text-gray-400"} 
                             `}
                             key={idx}
                             href={item.href}

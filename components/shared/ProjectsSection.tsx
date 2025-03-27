@@ -13,7 +13,7 @@ const projects = [
         imageSrc: "/draus.png",
         name: "Draus Design",
         description: "Portfolio website for thumbnails creator",
-        stackNames: ["Next.js", "Tailwind.css", "Framer"],
+        stackNames: ["Next.js", "Tailwind", "Framer"],
         url: "https://draus.studio"
     },
     {
@@ -27,7 +27,7 @@ const projects = [
         imageSrc: "/findashboard.png",
         name: "Findashboard Frontend",
         description: "Team-focused finance & project management platform",
-        stackNames: ["Next.js", "Tailwind.css"],
+        stackNames: ["Next.js", "Tailwind"],
         url: "https://github.com/skmkqw/findashboard-frontend"
     },
 ];
