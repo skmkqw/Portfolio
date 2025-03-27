@@ -11,7 +11,7 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
     metadataBase: new URL("http://localhost:3000/"),
-    title: "Timofei Korsakov",
+    title: "skmkqw | Timofei Korsakov",
     description:
         "Fullstack developer from Poland. Junior software engineer with focus on building scalable backends. Specializing web apps, Javascript and .NET technologies.",
     keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         "C#"
     ],
     openGraph: {
-        title: "Timofei Korsakov",
+        title: "skmkqw | Timofei Korsakov",
         description:
             "Fullstack developer from Poland. Junior software engineer. Specializing web apps, Javascript and .NET technologies.",
         images: "/emoji.png",
