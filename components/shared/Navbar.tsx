@@ -49,7 +49,7 @@ export default function NavBar() {
 
     return (
         <header className="fixed top-0 left-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-[#1f1f1f] flex flex-col items-center transition-all duration-1000 ease-in-out">
-            <div className="flex max-w-screen-xl items-center justify-between w-full px-8 py-2">
+            <div className="flex max-w-screen-xl items-center justify-between w-full px-8 py-4">
                 <Logo />
                 <nav className="hidden md:flex items-center gap-4">
                     {MENU_ITEMS.map((item, idx) => (
