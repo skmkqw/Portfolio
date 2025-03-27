@@ -2,7 +2,6 @@ import NavBar from "./shared/Navbar";
 import Title from "@/components/ui/Title";
 import Logo from "@/components/shared/Logo";
 import Button from "@/components/ui/Button";
-import Header from "@/components/shared/Header";
 import Subtitle from "@/components/ui/Subtitle";
 import Footer from "@/components/shared/Footer";
 import Project from "@/components/shared/Project";
@@ -17,7 +16,6 @@ import StackSection from "@/components/shared/StackSection";
 import ProjectsSection from "@/components/shared/ProjectsSection";
 
 export {
-    Header,
     Footer,
     NavBar,
     Logo,
