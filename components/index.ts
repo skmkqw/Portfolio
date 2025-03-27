@@ -13,6 +13,7 @@ import SocialIcons from "@/components/shared/SocialIcons";
 import HeroSection from "@/components/shared/HeroSection";
 import AboutSection from "@/components/shared/AboutSection";
 import StackSection from "@/components/shared/StackSection";
+import ContactSection from "@/components/shared/ContactSection";
 import ProjectsSection from "@/components/shared/ProjectsSection";
 
 export {
@@ -31,5 +32,6 @@ export {
     StackBadge,
     AboutSection,
     StackSection,
+    ContactSection,
     ProjectsSection
 };

@@ -40,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetBrainsMono.className} bg-black text-white bg-[url('/LooperGroup2.png')] bg-no-repeat`}>
+      <body className={`${jetBrainsMono.className} bg-black text-white bg-[url('/LooperGroup2.png')] bg-no-repeat overflow-x-hidden`}>
         <Background />
         <NavBar />
         {children}
