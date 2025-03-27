@@ -1,12 +1,12 @@
 import "./globals.css";
 
-import {Header, Footer, Background} from "@/components";
-import { Poppins } from "next/font/google";
+import { Background, Footer, NavBar } from "@/components";
 import { Metadata } from "next";
+import { JetBrains_Mono } from "next/font/google";
 
-const poppins = Poppins({
-    subsets: ["latin"],
-    weight: ["400", "500", "600", "800"]
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "800"]
 })
 
 export const metadata: Metadata = {
@@ -40,9 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-black text-white bg-[url('/LooperGroup2.png')] bg-no-repeat`}>
+      <body className={`${jetBrainsMono.className} bg-black text-white bg-[url('/LooperGroup2.png')] bg-no-repeat overflow-x-hidden`}>
         <Background />
-        <Header/>
+        <NavBar />
         {children}
         <Footer/>
       </body>

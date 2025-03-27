@@ -13,7 +13,7 @@ const projects = [
         imageSrc: "/draus.png",
         name: "Draus Design",
         description: "Portfolio website for thumbnails creator",
-        stackNames: ["Next.js", "Tailwind.css", "Framer"],
+        stackNames: ["Next.js", "Tailwind", "Framer"],
         url: "https://draus.studio"
     },
     {
@@ -27,14 +27,14 @@ const projects = [
         imageSrc: "/findashboard.png",
         name: "Findashboard Frontend",
         description: "Team-focused finance & project management platform",
-        stackNames: ["Next.js", "Tailwind.css"],
+        stackNames: ["Next.js", "Tailwind"],
         url: "https://github.com/skmkqw/findashboard-frontend"
     },
 ];
 
 export default function ProjectsSection() {
     return (
-        <Container className="flex flex-col items-center text-center">
+        <Container className="flex flex-col items-center text-center py-8 sm:py-12 md:py-16 scroll-mt-20" id="projects">
             <Title text="Projects" />
             <GradientText
                 text="EXPLORE NOW"

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
     return (
-        <Container className="flex flex-col items-center text-center">
+        <Container className="flex flex-col items-center text-center py-8 sm:py-12 md:py-16 scroll-mt-20" id="about">
             <Image
                 src="/emoji.png"
                 alt="Portrait emoji"
